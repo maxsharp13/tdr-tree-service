@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  background-color: #7a3e14;
+  background-image: url("/textures/wood.png");
+  background-size: 300px; 
+  background-repeat: repeat;
+}
