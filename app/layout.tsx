@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-[#7a3e14] bg-[url('/textures/wood.png')] bg-[length:300px] bg-repeat bg-blend-multiply">
+      <body className="bg-[#7a3e14] bg-[url('/textures/wood.png')] bg-repeat bg-[length:300px] bg-blend-multiply">
         <Navbar />
         {children}
         <Footer />
