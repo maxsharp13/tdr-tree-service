@@ -1,10 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="relative text-white py-10">
+    <footer className="text-white py-10 bg-black/40">
 
-      <div className="absolute inset-0 bg-black/40"></div>
-
-      <div className="relative max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8 z-10">
+      <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
 
         <div>
           <h2 className="text-xl font-bold mb-3">TDR Tree Service</h2>
@@ -33,7 +31,7 @@ export default function Footer() {
 
       </div>
 
-      <div className="relative text-center text-[#d1b8a6] text-sm mt-8 z-10">
+      <div className="text-center text-[#d1b8a6] text-sm mt-8">
         © {new Date().getFullYear()} TDR Tree Service. All rights reserved.
       </div>
 
