@@ -1,21 +1,17 @@
 export default function Footer() {
   return (
     <footer className="relative text-white py-10 overflow-hidden">
-
-      {/* WOOD BACKGROUND (lighter like preview) */}
+   
       <div className="absolute inset-0 bg-[#7a3e14] bg-[url('/textures/wood.png')] bg-repeat bg-[length:300px] bg-blend-multiply"></div>
 
-      {/* LIGHT OVERLAY (not too dark) */}
       <div className="absolute inset-0 bg-[#7a3e14]/50"></div>
 
-      {/* OPTIONAL SOFT FADE (lighter than before) */}
       <div className="absolute top-0 left-0 w-full h-12 bg-gradient-to-b from-transparent to-[#7a3e14]/50"></div>
 
-      {/* CONTENT */}
       <div className="relative max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8 z-10">
 
         <div>
-          <h2 className="text-xl font-bold mb-3">TDR Tree Service</h2>
+          <h2 className="text-xl font-bold mb-3 bg-red-500">TDR Tree Service</h2>
           <p className="text-sm text-[#f1e3d6]">
             Professional tree removal, trimming, and stump grinding services.
             Serving your local area with reliable and affordable solutions.
