@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="relative text-white py-10">
+    <footer className="relative text-white py-10 bg-blue-500">
 
       <div className="absolute inset-0 bg-black/40"></div>
 
