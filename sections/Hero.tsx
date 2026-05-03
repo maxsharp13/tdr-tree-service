@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-2xl px-4">
      
       <img 
-      src="/img/hero-logo.png" 
+      src="/img/hero-logo.jpg" 
       alt="TDR Tree Service Logo"
       className="mx-auto w-40 md:w-56 mb-6 object-contain"
       />
