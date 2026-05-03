@@ -1,6 +1,6 @@
 export default function ServicesPage() {
   return (
-    <main className="pt-28 min-h-screen">
+    <main className="pt-28">
 
       <div className="flex justify-center">
         <div className="bg-[#f5f2ee] max-w-6xl w-full flex shadow-lg">
