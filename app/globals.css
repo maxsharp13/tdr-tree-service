@@ -12,6 +12,13 @@
   }
 }
 
+html {
+  min-height: -webkit-fill-available;
+}
+
+body {
+  min-height: -webkit-fill-available;
+}
 
 html, body {
   padding: 0;
@@ -27,4 +34,9 @@ body {
   background-blend-mode: multiply;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  padding-bottom: env(safe-area-inset-bottom);
+  background-color: #1a1a1a;
 }
