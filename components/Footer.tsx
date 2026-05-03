@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="relative text-white py-10 overflow-hidden">
    
-      <div className="absolute inset-0 bg-[#7a3e14] bg-[url('/textures/wood.png')] bg-repeat bg-[length:300px] bg-blend-multiply"></div>
+   <div className="absolute inset-0 bg-[#7a3e14]/50"></div>
 
       <div className="absolute inset-0 bg-[#7a3e14]/50"></div>
 
