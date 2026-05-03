@@ -4,8 +4,6 @@ export default function Footer() {
 
       <div className="absolute inset-0 bg-black/40"></div>
 
-      <div className="absolute top-0 left-0 w-full h-16 bg-gradient-to-b from-transparent to-black/40"></div>
-
       <div className="relative max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8 z-10">
 
         <div>
