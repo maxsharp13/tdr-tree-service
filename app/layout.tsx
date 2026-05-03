@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex flex-col min-h-[100dvh] bg-[#7a3e14] bg-[url('/textures/wood.png')] bg-repeat bg-[length:300px]">
+      <body className="flex flex-col min-h-[100dvh]">
         
         <Navbar />
 
