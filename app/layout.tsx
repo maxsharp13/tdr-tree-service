@@ -5,7 +5,6 @@ import Footer from "../components/Footer";
 export const metadata = {
   title: "TDR Tree Service",
   description: "Tree removal and trimming services",
-  themeColor: "#7a3e14",
 };
 
 export default function RootLayout({
