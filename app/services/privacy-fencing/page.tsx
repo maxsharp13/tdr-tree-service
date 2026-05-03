@@ -9,7 +9,7 @@ export default function PrivacyFencingPage() {
   
              
               <img
-                src="/img/privacy-fencing.jpg"
+                src="/img/fence.jpg"
                 alt="Privacy Fencing"
                 className="w-full mb-6 border"
               />
